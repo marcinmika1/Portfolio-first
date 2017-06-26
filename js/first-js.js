@@ -21,8 +21,9 @@ $(document).ready(function () {
     };
     /*przyciska down scrolluje w dol o wysokosc diva*/    /*przyciska down scrolluje w dol o wysokosc diva*/
     var scrooled = 0;
+    
     function buttomScrollUpDown() {
-        var DownEndScroll=heighToScroll* sectionCount;
+        var DownEndScroll = heighToScroll*sectionCount;
         console.log(DownEndScroll);
         var heighToScroll = $("#second-section").height();
     /*na klikniecie przycisku dol jest scroll w dol o wysokosc diva*/    
@@ -35,13 +36,12 @@ if(scrooled<heighToScroll* sectionCount);
         });
      /*na klikniecie przycisku gora jest scroll w gore o wysokosc diva*/        
             $('#scroolUp').on("click", function () {
-if(scrooled>0)
-                scrooled = scrooled - heighToScroll;
             $('body').animate({
-                scrollTop: scrooled
+       
             });
-        });
-    };
+       
+    });
+                              };
     
 /*    function buttomScrollLeftRight() {
 
@@ -63,5 +63,7 @@ if(scrooled>0)
     console.log('koniec');
     console.log($("section").length);
     console.log($('article').length);
+    console.log(sectionCount);
+    console.log()
 
 });

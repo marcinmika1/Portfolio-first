@@ -58,7 +58,9 @@ nav ul li a:hover {
 }
 
 section#first-section{
-    background-color: aqua;
+    background-image: url(/img/sekcja-1.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 section#first-section article#name-first-article{
@@ -71,6 +73,9 @@ section#second-section{
     background-color: black;
     overflow: hidden;
     width: auto;
+    background-image: url(/img/sekcja-2.jpg);
+    background-size:cover;
+    background-position: center;
 }
 
 .section-two{
@@ -81,6 +86,19 @@ section#second-section{
 }
 
 section#third-section{
-    background-color: green;
+    background-image: url(/img/sekcja-3.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+section#forth-section{
+    background-image: url(/img/sekcja-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
 
