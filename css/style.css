@@ -5,10 +5,29 @@ body{
 /*    overflow: hidden;*/
 }
 
+section{
+  /*  position: relative;*/
+}
+
+.buttonMove{
+    position: fixed;
+}
 #scroolDown{
-    position: absolute;
-    margin-top: 50px;
-    
+    margin-top: 80vh;  
+}
+
+#scroolUp{
+    margin-top: 20vh;
+}
+
+#scroolLeft{
+    margin-top: 50vh;
+    margin-left: -40vh;
+}
+
+#scroolRight{
+    margin-top: 50vh;
+    margin-left: 40vh;
 }
 
 nav{    
