@@ -3,10 +3,10 @@
 $(document).ready(function () {
     /*funkcja zmienia wysokosc i szerokości wszystkich sekcji */
     var sectionCount = $("section").length;
-    
+
     function fixSectionWidth() {
-        
-        
+
+
         $("section").css({
             "height": "100vh",
             "width": "100%"
@@ -19,47 +19,47 @@ $(document).ready(function () {
             "width": allArticleWidthCount
         });
     };
-    /*przyciska down scrolluje w dol o wysokosc diva*/    /*przyciska down scrolluje w dol o wysokosc diva*/
+    /*przyciska down scrolluje w dol o wysokosc diva*/
+    /*przyciska down scrolluje w dol o wysokosc diva*/
     var scrooled = 0;
-    
+
     function buttomScrollUpDown() {
-        var DownEndScroll = heighToScroll*sectionCount;
+        var DownEndScroll = heighToScroll * sectionCount;
         console.log(DownEndScroll);
         var heighToScroll = $("#second-section").height();
-    /*na klikniecie przycisku dol jest scroll w dol o wysokosc diva*/    
+        /*na klikniecie przycisku dol jest scroll w dol o wysokosc diva*/
         $('#scroolDown').on("click", function () {
-            scrooled = scrooled + heighToScroll;
-if(scrooled<heighToScroll* sectionCount);
-            $('body').animate({
-                scrollTop: scrooled
-            });
-        });
-     /*na klikniecie przycisku gora jest scroll do podanego w funkcji anchor-a*/        
-            $('#scroolUp').on("click", function () {
-         $('html, body').animate({ 
-    scrollTop: $("#forthSectionArchor").offset().top 
-}, 2000);
+            $('html, body').animate({
+                scrollTop: $("#forthSectionArchor").offset().top
+            }, 2000);
             console.log('dziala gora');
-         
-       
-    });
-                              };
-    
-/*    function buttomScrollLeftRight() {
 
-        
-        var heighToScroll = $("#first-section").width();
-        console.log(heighToScroll);
-        
-        $('#scroolLeft').on("click", function () {
-            scrooled = scrooled + heighToScroll;
-            $('body').animate({
-                scrollTop: scrooled
-            });
+        });
+        /*na klikniecie przycisku gora jest scroll do podanego w funkcji anchor-a*/
+        $('#scroolUp').on("click", function () {
+            $('html, body').animate({
+                scrollTop: $("#firstSectionArchor").offset().top
+            }, 2000);
+            console.log('dziala gora');
+
         });
     };
 
-    console.log(buttomScrollLeftRight());*/
+    /*    function buttomScrollLeftRight() {
+
+            
+            var heighToScroll = $("#first-section").width();
+            console.log(heighToScroll);
+            
+            $('#scroolLeft').on("click", function () {
+                scrooled = scrooled + heighToScroll;
+                $('body').animate({
+                    scrollTop: scrooled
+                });
+            });
+        };
+
+        console.log(buttomScrollLeftRight());*/
     console.log(buttomScrollUpDown());
     console.log(fixSectionWidth());
     console.log('koniec');
