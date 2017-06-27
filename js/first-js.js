@@ -34,11 +34,13 @@ if(scrooled<heighToScroll* sectionCount);
                 scrollTop: scrooled
             });
         });
-     /*na klikniecie przycisku gora jest scroll w gore o wysokosc diva*/        
+     /*na klikniecie przycisku gora jest scroll do podanego w funkcji anchor-a*/        
             $('#scroolUp').on("click", function () {
-            $('body').animate({
-       
-            });
+         $('html, body').animate({ 
+    scrollTop: $("#forthSectionArchor").offset().top 
+}, 2000);
+            console.log('dziala gora');
+         
        
     });
                               };
