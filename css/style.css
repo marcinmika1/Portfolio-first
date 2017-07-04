@@ -1,38 +1,46 @@
-body{
+body {
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-/*    overflow: hidden;*/
+    overflow: hidden;
 }
 
-section{
-  /*  position: relative;*/
+
+article {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    float: left;
 }
 
-.buttonMove{
+.buttonMove {
     position: fixed;
 }
-#scroolDown{
-    margin-top: 80vh;  
+
+#scroolDown {
+    bottom: 0px;
 }
 
-#scroolUp{
-    margin-top: 20vh;
+#scroolUp {
+    top: 0px;
+    opacity: 0;
 }
 
-#scroolLeft{
+#scroolLeft {
     margin-top: 50vh;
-    margin-left: -40vh;
+    left: 0px;
+    opacity: 0;
 }
 
-#scroolRight{
+#scroolRight {
     margin-top: 50vh;
-    margin-left: 40vh;
+    right: 0px;
+    opacity: 0;
 }
 
-nav{    
+nav {
     text-align: center;
-    position: fixed;
+/*    position: fixed;*/
     width: 100%;
     height: 50px;
     background-color: gray;
@@ -40,16 +48,16 @@ nav{
     z-index: 1;
 }
 
-nav ul li{
+nav ul li {
     list-style-type: none;
     display: inline;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
     margin-left: 10px;
-    font-size: 20px;  
+    font-size: 20px;
     color: white;
 }
 
@@ -57,48 +65,37 @@ nav ul li a:hover {
     color: aqua;
 }
 
-section#first-section{
-    background-image: url(/img/sekcja-1.jpg);
+section#first-section {
+    background-image: url(../img/sekcja-1.jpg);
     background-size: cover;
     background-position: center;
 }
 
-section#first-section article#name-first-article{
-    color: yellow;
-    height: 100px;
-    background-color: azure;
-}
-
-section#second-section{
+section#second-section {
     background-color: black;
     overflow: hidden;
     width: auto;
-    background-image: url(/img/sekcja-2.jpg);
-    background-size:cover;
+    background-image: url(../img/sekcja-2.jpg);
+    background-size: cover;
     background-position: center;
+    text-align: left;
 }
 
-.section-two{
+.section-two {
     background: grey;
     display: inline-block;
     height: 100vh;
     /*width: 100vw ;*/
 }
 
-section#third-section{
-    background-image: url(/img/sekcja-3.jpg);
+section#third-section {
+    background-image: url(../img/sekcja-3.jpg);
     background-size: cover;
     background-position: center;
 }
 
-section#forth-section{
-    background-image: url(/img/sekcja-4.jpg);
+section#forth-section {
+    background-image: url(../img/sekcja-4.jpg);
     background-size: cover;
     background-position: center;
 }
-
-
-
-
-
-
