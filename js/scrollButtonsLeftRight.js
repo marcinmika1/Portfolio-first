@@ -72,7 +72,6 @@ function buttomScrollLeft() {
         nameAnchorLeftRight();
         nameanchorLeft();
         nameanchorLeftUpDown()
-        console.log(countClickLeftRight);
         $('html, body').animate({
             scrollLeft: $(anchorNameLeftRight).offset().left
         }, 1000);
@@ -86,7 +85,6 @@ function buttomScrollLeft() {
         nameanchorRight();
         nameanchorLeftUpDown();
         nameAnchorLeftRightUpDown();
-        console.log(countClickLeftRight);
         $('html, body').animate({
             scrollLeft: $(anchorNameLeftRight).offset().left
         }, 1000);

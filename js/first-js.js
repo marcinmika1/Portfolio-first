@@ -2,14 +2,9 @@
 /*wyzwolenie przy zaladowaniu strony*/
 $(document).ready(function () {
     /*funkcja zmienia wysokosc i szerokości wszystkich sekcji */
-    
-    
-    
     var sectionCount = $("section").length;
 
     function fixSectionWidth() {
-
-
         $("section").css({
             "height": "100vh",
             "width": "100%"
@@ -21,7 +16,7 @@ $(document).ready(function () {
             "height": "100vh",
             "width": allArticleWidthCount
         });
-    };
+    };    
     fixSectionWidth();
     
     function articleWidth(){

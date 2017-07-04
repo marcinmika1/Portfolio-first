@@ -56,11 +56,6 @@ function buttomScrollLeft() {
                 scrollTop: 
              $(anchorName).offset().top
             }, 1000);
-            console.log('dziala');
-            console.log(countClick);
-            console.log(anchorName);
-            console.log($('section').length);
-
         });
     $('#scroolUp').on("click", function () {
           if (countClick>1){countClick--};
@@ -71,10 +66,6 @@ function buttomScrollLeft() {
                 scrollTop: 
              $(anchorName).offset().top
             }, 1000);
-            console.log('dziala right');
-            console.log(countClick);
-            console.log(anchorName);
-
         });
         
     };
