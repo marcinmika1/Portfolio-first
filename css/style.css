@@ -13,8 +13,18 @@ article {
     float: left;
 }
 
+section{
+    
+}
+
 .buttonMove {
     position: fixed;
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    color: wheat;
+    font-size: 30px;
+    
 }
 
 #scroolDown {
@@ -22,7 +32,7 @@ article {
 }
 
 #scroolUp {
-    top: 0px;
+    top: 50px;
     opacity: 0;
 }
 
@@ -40,7 +50,7 @@ article {
 
 nav {
     text-align: center;
-/*    position: fixed;*/
+    position: fixed;
     width: 100%;
     height: 50px;
     background-color: gray;
@@ -66,9 +76,7 @@ nav ul li a:hover {
 }
 
 section#first-section {
-    background-image: url(../img/sekcja-1.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: antiquewhite;
 }
 
 section#second-section {
