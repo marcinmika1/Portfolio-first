@@ -1,6 +1,14 @@
 'use strict';
 /*wyzwolenie przy zaladowaniu strony*/
 $(document).ready(function () {
+    
+    $('#fotoDiv').css({
+     '-moz-transform':'rotate(-88deg)',
+     '-webkit-transform':'rotate(-88deg)',
+     '-o-transform':'rotate(-88deg)',
+     '-ms-transform':'rotate(-88deg)',
+     'transform':'rotate(-88deg)'
+});
     /*funkcja zmienia wysokosc i szerokości wszystkich sekcji */
     var sectionCount = $("section").length;
 

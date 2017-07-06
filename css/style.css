@@ -5,6 +5,13 @@ body {
     overflow: hidden;
 }
 
+#fotoDiv{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    display: inline-block;
+    margin: 0px;
+}
 
 article {
     margin: 0;
@@ -22,7 +29,7 @@ section{
     background-color: black;
     width: 100px;
     height: 50px;
-    color: wheat;
+    color: white;
     font-size: 30px;
     
 }
@@ -76,7 +83,8 @@ nav ul li a:hover {
 }
 
 section#first-section {
-    background-color: antiquewhite;
+    background-color: white;
+    text-align: center;
 }
 
 section#second-section {
